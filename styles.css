@@ -1,0 +1,80 @@
+#recordingOverlay {
+  position: fixed;
+  align-items: center;
+  justify-content: space-around;
+  top: 90vh;
+  left: 10px;
+  z-index: 9999;
+  display: flex;
+  width: 551px;
+  background-color: #141414;
+  border-radius: 200px;
+  color:#fff;
+  opacity: 0.4;
+}
+#recordingOverlay:hover{
+    opacity: 1;
+}
+
+#stopButton,
+#pauseButton,
+#resumeButton,
+#deleteButton,
+#micButton,
+#cameraButton {
+  width: 14px;
+  height: 14px;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #141414;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#stop,
+#pause,
+#delete,
+#mic,
+#camera{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#camera span{
+    font-size: 8px;
+    font-family: "Wrok Sans";
+}
+
+#stop span{
+    font-size: 8px;
+    font-family: "Wrok Sans";
+}
+
+#pause span{
+    font-size: 8px;
+    font-family: "Wrok Sans";
+}
+
+#mic span{
+    font-size: 8px;
+    font-family: "Wrok Sans";
+}
+
+
+#timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid grey;
+}
+
+#timer span{
+    font-size: 36px;
+    color: red;
+    margin-left: 5px;
+    margin-top: -10px;
+}
